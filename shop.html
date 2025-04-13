@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop - Lavanda Jewelry</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">LAVANDA</div>
+    <nav>
+      <a href="shop.html">Shop</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="https://www.instagram.com/">Instagram</a>
+    </nav>
+    <div class="icons">
+      <span>Wishlist</span>
+      <span>Cart (0)</span>
+    </div>
+    <div class="hamburger">☰</div>
+  </header>
+
+  <section class="shop-header">
+    <h1>Shop All</h1>
+  </section>
+
+  <section class="shop-content">
+    <aside class="filters">
+      <h3>Category</h3>
+      <span>Rings</span>
+      <span>Bracelets</span>
+      <span>Sets</span>
+      <h3>Price Range</h3>
+      <span>Slider Placeholder</span>
+      <h3>Material</h3>
+      <span>Silver</span>
+      <h3>Sort By</h3>
+      <span>Dropdown Placeholder</span>
+    </aside>
+    <div class="product-grid">
+      <div class="product-item"> onclick="openQuickView('Product 1', '99₾', 'pic11.jpg')">
+        <div class="product-image" style="background-image: url('pic11.jpg'); height: 200px;"></div>
+        <div class="product-name">Product 1</div>
+        <div class="product-price">99₾</div>
+        <div class="quick-view">Quick View</div>
+      </div>
+      <div class="product-item"> onclick="openQuickView('Product 2', '129₾', 'pic12.jpg')">
+        <div class="product-image" style="background-image: url('pic12.jpg'); height: 200px;"></div>
+        <div class="product-name">Product 2</div>
+        <div class="product-price">129₾</div>
+        <div class="quick-view">Quick View</div>
+      </div>
+      <div class="product-item">  onclick="openQuickView('Product 3', '89₾', 'pic13.jpg')">
+        <div class="product-image" style="background-image: url('pic13.jpg'); height: 200px;"></div>
+        <div class="product-name">Product 3</div>
+        <div class="product-price">89₾</div>
+        <div class="quick-view">Quick View</div>
+      </div>
+      <div class="product-item">   onclick="openQuickView('Product 4', '149₾', 'pic14.jpg')">
+        <div class="product-image" style="background-image: url('pic14.jpg'); height: 200px;"></div>
+        <div class="product-name">Product 4</div>
+        <div class="product-price">149₾</div>
+        <div class="quick-view">Quick View</div>
+      </div>
+    </div>
+    <div class="pagination">
+      <span>Prev</span>
+      <span>1</span>
+      <span>2</span>
+      <span>3</span>
+      <span>Next</span>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-columns">
+      <div class="footer-column">
+        <h3>Quick Links</h3>
+        <a href="shop.html">Shop</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <span>FAQ</span>
+      </div>
+      <div class="footer-column">
+        <h3>Policies</h3>
+        <span>Shipping Info</span>
+        <span>Return Policy</span>
+        <span>Privacy Policy</span>
+        <span>Terms</span>
+      </div>
+      <div class="footer-column">
+        <h3>Connect</h3>
+        <span>Instagram</span>
+        <span>Facebook</span>
+        <span>WhatsApp</span>
+        <span>Email</span>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Lavanda Jewelry. All Rights Reserved.</p>
+      <span>Payment Icons</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<div id="quickViewModal" class="modal">
+    <div class="modal-content">
+      <span class="close-button" onclick="closeQuickView()">&times;</span>
+      <img id="quickViewImg" src="" alt="" style="width:100%; margin-bottom: 10px;">
+      <h2 id="quickViewName"></h2>
+      <p id="quickViewPrice"></p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+  </div>
+  
