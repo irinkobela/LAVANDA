@@ -240,53 +240,52 @@
   }
   
   @media screen and (max-width: 768px) {
-    header, footer {
-      padding: 15px 20px;
-      flex-direction: column;
-      text-align: center;
-    }
-  
-    nav {
-      display: none;
-      flex-direction: column;
-      gap: 10px;
-      background-color: #fff;
-      padding: 20px 0;
-    }
-  
-    .hamburger {
-      display: block;
-      font-size: 1.5rem;
-      margin-left: auto;
-    }
-  
-    .product-grid {
-      grid-template-columns: 1fr;
-      padding: 20px;
-    }
-  
-    .hero {
-      height: 60vh;
-      padding: 40px 20px;
-    }
-  
-    .hero-content {
-      padding: 20px;
-    }
-  
-    .footer-columns {
-      flex-direction: column;
-      text-align: center;
-    }
-  
-    .instagram-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 10px;
-    }
-  
-    .announcement {
-      font-size: 0.85rem;
-    }
+  header, footer {
+    padding: 15px 20px;
+    flex-direction: column;
+    text-align: center;
   }
-  
+
+  nav {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #fff;
+    padding: 20px 0;
+  }
+
+  .hamburger {
+    display: block;
+    font-size: 1.5rem;
+    margin-left: auto;
+  }
+
+  .product-grid {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+
+  .hero {
+    height: 60vh;
+    padding: 40px 20px;
+  }
+
+  .hero-content {
+    padding: 20px;
+  }
+
+  .footer-columns {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .instagram-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .announcement {
+    font-size: 0.85rem;
+  }
+}
